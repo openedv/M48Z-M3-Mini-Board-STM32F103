@@ -13,7 +13,7 @@ The hardware resources used in this experiment are:
 
 The SPI1 used in this experiment is an on-chip resource of STM32F103, so there is no corresponding connection schematic. The wiring diagram between MCU and ATK-MD0130 module is shown as follows:
 
-![ ](./1_docs/3_figures/10_TFTLCD_MCU/l1.png)
+![ ](../../1_docs/3_figures/10_TFTLCD_MCU/l1.png)
 
 ### 3 STM32CubeIDE Configuration
 
@@ -22,17 +22,17 @@ Let's copy the project from  **04_UART** and name both the project and the.ioc f
 
 First of all, the following are the pins used in this experiment. The red box is the relevant pin of SPI, which is set as shown below:
 
-![ ](./1_docs/3_figures/10_TFTLCD_MCU/l2.png)
+![ ](../../1_docs/3_figures/10_TFTLCD_MCU/l2.png)
 
 The remaining pins are configured as follows:
 
-![ ](./1_docs/3_figures/10_TFTLCD_MCU/l3.png)
+![ ](../../1_docs/3_figures/10_TFTLCD_MCU/l3.png)
 
-![ ](./1_docs/3_figures/10_TFTLCD_MCU/l4.png)
+![ ](../../1_docs/3_figures/10_TFTLCD_MCU/l4.png)
 
 Click **Connectivity > SPI1** .
 
-![ ](./1_docs/3_figures/10_TFTLCD_MCU/l5.png)
+![ ](../../1_docs/3_figures/10_TFTLCD_MCU/l5.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -164,6 +164,6 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### 4.2 Phenomenon
 Press the reset button to restart the Mini Board, observe the LED flashing on the Mini Board, open the serial port and the host computer **ATK-XCOM** can see the prompt information of the experiment, indicating that the code download is successful. Connecting the **ATK-MD0130** module and the Mini Board, the phenomenon is shown as follows.
 
-![ ](./1_docs/3_figures/10_TFTLCD_MCU/l6.png)
+![ ](../../1_docs/3_figures/10_TFTLCD_MCU/l6.png)
 
 [jump to tittle](#catalogue)

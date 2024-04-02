@@ -1,4 +1,4 @@
-## USB_VSP example<a name="catalogue"></a>
+## FreeRTOS_Demo example<a name="catalogue"></a>
 
 
 ### 1 Brief
@@ -19,24 +19,24 @@ Configure the FreeRTOS as shown in the following figure:
 
 First click **Middleware and Software Packs->FREERTOS**,and choose **CMSIS_V2** in **Interface**， as shown below.
 
-![ ](./1_docs/3_figures/21_FreeRTOS_Demo/f1.png)
+![ ](../../1_docs/3_figures/21_FreeRTOS_Demo/f1.png)
 
 This option has three options: Disable, CMSIS_V1, and CMSIS_V2. Since we will be using FreeRTOS,
 Therefore, you need to choose between two options: CMSIS_V1 and CMSIS_V2. For the difference between the two, detail.For more information, see the definition of the microcontroller software interface standard CMSIS on the ARM website.
 
 For the rest of the FreeRTOS configuration, keep the default Settings.
 
-![ ](./1_docs/3_figures/21_FreeRTOS_Demo/f2.png)
+![ ](../../1_docs/3_figures/21_FreeRTOS_Demo/f2.png)
 
 In this experiment, we need to create two tasks, namely task01 and task02, and then configure these two tasks,as shown below.
 
-![ ](./1_docs/3_figures/21_FreeRTOS_Demo/f3.png)
+![ ](../../1_docs/3_figures/21_FreeRTOS_Demo/f3.png)
 
 Follow the steps above. You can complete the task name, task function, and task stack Settings.
 
 Then Click **System Core > SYS**,tick count source for configuring the HAL library .
 
-![ ](./1_docs/3_figures/21_FreeRTOS_Demo/f4.png)
+![ ](../../1_docs/3_figures/21_FreeRTOS_Demo/f4.png)
 
 Because freertos scheduling clock is mandatory to use systick and systick's interrupt priority is set to the lowest,this will cause the delay function provided by the HAL library to produce an inaccurate count.So we chose TIM1 to provide a time benchmark for the HAL library.
 

@@ -114,8 +114,8 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### 4.2 Phenomenon
 Press the reset button to restart the Mini Board, observe the LED flashing on the Mini Board, open the serial port and the host computer **ATK-XCOM** can see the prompt information of the experiment, indicating that the code download is successful. If the **KEY0** button is pressed, the LED and LCD will go off. If the **WKUP** button is pressed, the LED will resume flashing, the LCD screen will resume display, and the experimental information will be displayed again on the serial port, as shown in the following figure.
 
-![ ](./1_docs/3_figures/13_4_LowPower_Standby/s1.png)
+![ ](../../1_docs/3_figures/13_4_LowPower_Standby/s1.png)
 
-![ ](./1_docs/3_figures/13_4_LowPower_Standby/s2.png)
+![ ](../../1_docs/3_figures/13_4_LowPower_Standby/s2.png)
 
 [jump to tittle](#catalogue)

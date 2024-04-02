@@ -19,17 +19,17 @@ We copy the previous chapter project and name both the project and the.ioc file 
 
 Next, configure the pin of the ADC1 channel first. In this experiment, we use the input channel 1\2\3\4\5\6\7 of ADC1,and configure each channel of ADC1 as a single-ended input mode, as shown in the figure below:
 
-![ ](./1_docs/3_figures/15_3_ADC_DMA_Multi_Channel/a8.png)
+![ ](../../1_docs/3_figures/15_3_ADC_DMA_Multi_Channel/a8.png)
 
 
 Since this experiment uses one more ADC channel than the experiment in the previous chapter, the ADC channel needs to be reconfigured.
 Click **Analog > ADC1** to set. 
 
-![ ](./1_docs/3_figures/15_3_ADC_DMA_Multi_Channel/a9.png)
+![ ](../../1_docs/3_figures/15_3_ADC_DMA_Multi_Channel/a9.png)
 
 Next are the ADC1 parameters, as shown in the following screenshot.
 
-![ ](./1_docs/3_figures/15_3_ADC_DMA_Multi_Channel/a11.png)
+![ ](../../1_docs/3_figures/15_3_ADC_DMA_Multi_Channel/a11.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -131,6 +131,6 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, observe the LED flashing on the development board, open the serial port and the host computer ATK-XCOM can see the prompt information of the experiment, indicating that the code download is successful. When the dupont line is used to connect the **PA1** and **PA7** pins with different voltage values, the digital and analog voltage of the serial port host computer will also change. **It should be noted that the input voltage cannot exceed the 3.3V threshold of the development board**, otherwise it may damage the development board. The phenomenon is illustrated in the following figure:
 
-![ ](./1_docs/3_figures/15_3_ADC_DMA_Multi_Channel/a10.png)
+![ ](../../1_docs/3_figures/15_3_ADC_DMA_Multi_Channel/a10.png)
 
 [jump to tittle](#catalogue)

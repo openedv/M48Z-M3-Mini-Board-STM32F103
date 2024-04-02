@@ -19,13 +19,13 @@ Let's copy the project from **04_UART** and name both the project and the.ioc fi
 
 Click **Timers->TIM2** and configure as shown in the following figure.
 
-![](./1_docs/3_figures/08_1_GTIM_Interrupt/g1.png)
+![](../../1_docs/3_figures/08_1_GTIM_Interrupt/g1.png)
 
 As can be seen from the figure above, we configure the period as (10,000-1), the prescaler as (7200-1), and the clock frequency of TIM2 is 72MHz, so the count frequency of TIM2 is 1KHz.
 
 The configuration of the NVIC is shown below.
 
-![](./1_docs/3_figures/08_1_GTIM_Interrupt/g2.png)
+![](../../1_docs/3_figures/08_1_GTIM_Interrupt/g2.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 

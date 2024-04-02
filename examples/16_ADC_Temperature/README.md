@@ -18,9 +18,9 @@ We copy the ** 10_TFTLCD ** project and name both the project and the.ioc file *
 
 The ADC channel 16 used in this experiment is set as shown below.
 
-![ ](./1_docs/3_figures/16_ADC_Temperature/a11.png)
+![ ](../../1_docs/3_figures/16_ADC_Temperature/a11.png)
 
-![ ](./1_docs/3_figures/16_ADC_Temperature/a12.png)
+![ ](../../1_docs/3_figures/16_ADC_Temperature/a12.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -164,6 +164,6 @@ After the compilation is complete, connect the DAP and the minimal system board,
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, observe the LED flashing on the development board, open the serial port and the host computer **ATK-XCOM** can see the prompt information of the experiment, indicating that the code download is successful. The temperature value of the internal temperature sensor on the minimum system board will be displayed on the host computer of the serial port, as shown in the following figure.
 
-![ ](./1_docs/3_figures/16_ADC_Temperature/a13.png)
+![ ](../../1_docs/3_figures/16_ADC_Temperature/a13.png)
 
 [jump to tittle](#catalogue)

@@ -18,17 +18,17 @@ Let's copy the project from  **10_TFTLCD_MCU** and name both the project and the
 
 First click **Clock Configuration** and set it as shown below.
 
-![ ](./1_docs/3_figures/12_RTC/r1.png)
+![ ](../../1_docs/3_figures/12_RTC/r1.png)
 
 Open **Timers > RTC** as shown below.
 
-![ ](./1_docs/3_figures/12_RTC/r2.png)
+![ ](../../1_docs/3_figures/12_RTC/r2.png)
 
 ![ ](../../1_docs/3_figures/12_RTC/r3.png)
 
 Open **NVIC** configuration as shown below.
 
-![ ](./1_docs/3_figures/12_RTC/r4.png)
+![ ](../../1_docs/3_figures/12_RTC/r4.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -241,6 +241,6 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### Experimental phenomenon
 Press the reset button to restart the Mini Board, observe the LED flashing on the Mini Board, open the serial port and the host computer **ATK-XCOM** can see the prompt information of the experiment, indicating that the code download is successful. We use the serial port to debug the RTC phenomenon as shown below:
 
-![ ](./1_docs/3_figures/12_RTC/r5.png)
+![ ](../../1_docs/3_figures/12_RTC/r5.png)
 
 [jump to tittle](#catalogue)

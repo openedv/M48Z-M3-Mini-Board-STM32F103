@@ -11,9 +11,9 @@ The hardware resources used in this experiment are:
 + KEY - WKUP(PA0)
 + KEY - KEY0(PC13) 
 
-![](./1_docs/3_figures/03_EXTI/k.png)
+![](../../1_docs/3_figures/03_EXTI/k.png)
 
-![](./1_docs/3_figures/03_EXTI/p.png)
+![](../../1_docs/3_figures/03_EXTI/p.png)
 
 The hardware is consistent with the *KEY experiment*, and will not be described in detail here.
 
@@ -23,17 +23,17 @@ Let's copy the project from the previous chapter and name both the project and t
 
 We need to reconfigure the IO mode of PA0 and PC13 pins in the previous chapter to ``GPIO_EXTI0`` and ``GPIO_EXTI13``, as shown in the following figure:
 
-![](./1_docs/3_figures/03_EXTI/e1.png)
+![](../../1_docs/3_figures/03_EXTI/e1.png)
 
 The following is the working mode of GPIO, and the specific configuration is shown in the figure below:
 
-![](./1_docs/3_figures/03_EXTI/e2.png)
+![](../../1_docs/3_figures/03_EXTI/e2.png)
 
-![](./1_docs/3_figures/03_EXTI/e3.png)
+![](../../1_docs/3_figures/03_EXTI/e3.png)
 
 Then we configure the following in the **System > NVIC** option:
 
-![](./1_docs/3_figures/03_EXTI/e4.png)
+![](../../1_docs/3_figures/03_EXTI/e4.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 

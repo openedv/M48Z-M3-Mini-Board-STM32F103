@@ -19,23 +19,23 @@ Let's copy the project from **04_UART** and name both the project and the.ioc fi
 
 First, we multiplexed the PA0 pin to TIM2_CH1, as shown below.
 
-![](./1_docs/3_figures/08_3_GTIM_Capture/g6.png)
+![](../../1_docs/3_figures/08_3_GTIM_Capture/g6.png)
 
 The detailed configuration of pins is as follows.
 
-![](./1_docs/3_figures/08_3_GTIM_Capture/g7.png)
+![](../../1_docs/3_figures/08_3_GTIM_Capture/g7.png)
 
 Click **Timers->TIM2** and configure as shown in the following figure.
 
-![](./1_docs/3_figures/08_3_GTIM_Capture/g8.png)
+![](../../1_docs/3_figures/08_3_GTIM_Capture/g8.png)
 
 The **Parameter Settings** are as follows.
 
-![](./1_docs/3_figures/08_3_GTIM_Capture/g9.png)
+![](../../1_docs/3_figures/08_3_GTIM_Capture/g9.png)
 
 This experiment uses timer input capture interrupt to complete the capture function, so the NVIC configuration is as follows.
 
-![](./1_docs/3_figures/08_3_GTIM_Capture/g10.png)
+![](../../1_docs/3_figures/08_3_GTIM_Capture/g10.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -190,6 +190,6 @@ After the compilation is complete, connect the DAP and the minimal system board,
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, and observe the LED flashing on the development board, indicating that the code has been downloaded successfully. Open the serial port host computer **ATK-XCOM** can see the experiment prompt information, and press the WKUP button, see the serial port printed high level duration, as shown below:
 
-![](./1_docs/3_figures/08_3_GTIM_Capture/g11.png)
+![](../../1_docs/3_figures/08_3_GTIM_Capture/g11.png)
 
 [jump to tittle](#catalogue)

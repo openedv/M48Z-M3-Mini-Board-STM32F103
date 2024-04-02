@@ -20,15 +20,15 @@ Let's copy the project from the **04_UART** and name both the project and the.io
 
 First, we will configure the pin as shown below:
 
-![](./1_docs/3_figures/09_3_ATIM_CPLM_PWM/a9.png)
+![](../../1_docs/3_figures/09_3_ATIM_CPLM_PWM/a9.png)
 
 Click **Timers > TIM1** and configure as shown in the following figure.
 
-![](./1_docs/3_figures/09_3_ATIM_CPLM_PWM/a10.png)
+![](../../1_docs/3_figures/09_3_ATIM_CPLM_PWM/a10.png)
 
 Click **Timers > TIM1 > Parameter Settings** .
 
-![](./1_docs/3_figures/09_3_ATIM_CPLM_PWM/a11.png)
+![](../../1_docs/3_figures/09_3_ATIM_CPLM_PWM/a11.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -98,10 +98,10 @@ Press the reset button to restart the development board, open the serial port de
 
 We need to observe the situation of PA8 and PB13 pin PWM output with the help of a ALIENTEK DS100 oscilloscope, and find that these two PWMS are complementary PWMS, as shown in the figure.
 
-![](./1_docs/3_figures/09_3_ATIM_CPLM_PWM/a12.png)
+![](../../1_docs/3_figures/09_3_ATIM_CPLM_PWM/a12.png)
 
 Since the brake and automatic output functions are set, after the PB12 pin is connected to the effective high level, it can be seen that both PWMS are forbidden to output. When the high level of PB12 pin access is revoked, you can see that the two PWM output is automatically restored, as shown below:
 
-![](./1_docs/3_figures/09_3_ATIM_CPLM_PWM/a13.png)
+![](../../1_docs/3_figures/09_3_ATIM_CPLM_PWM/a13.png)
 
 [jump to tittle](#catalogue)

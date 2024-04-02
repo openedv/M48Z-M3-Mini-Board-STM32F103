@@ -20,19 +20,19 @@ Let's copy the project from **04_UART** and name both the project and the.ioc fi
 
 First we multiplex the PA0 pin into TIM2_CH1 as shown below.
 
-![](./1_docs/3_figures/08_4_GTIM_Count/g12.png)
+![](../../1_docs/3_figures/08_4_GTIM_Count/g12.png)
 
 The detailed configuration of pins is as follows.
 
-![](./1_docs/3_figures/08_4_GTIM_Count/g13.png)
+![](../../1_docs/3_figures/08_4_GTIM_Count/g13.png)
 
 Click **Timers > TIM2** and configure as shown in the following figure.
 
-![](./1_docs/3_figures/08_4_GTIM_Count/g14.png)
+![](../../1_docs/3_figures/08_4_GTIM_Count/g14.png)
 
 In this experiment, the timer update interrupt is used to complete the function of cumulative overflow times, so the NVIC configuration is as follows.
 
-![](./1_docs/3_figures/08_4_GTIM_Count/g15.png)
+![](../../1_docs/3_figures/08_4_GTIM_Count/g15.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -178,6 +178,6 @@ After the compilation is complete, connect the DAP and the minimal system board,
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, and observe the LED flashing on the development board, indicating that the code has been downloaded successfully. Open the serial port host computer **ATK-XCOM** can see the experimental prompt information, continuously press the WKUP button, simulate multiple pulses, and then press the KEY0 button to clear the count value, as shown below:
 
-![](./1_docs/3_figures/08_4_GTIM_Count/g16.png)
+![](../../1_docs/3_figures/08_4_GTIM_Count/g16.png)
 
 [jump to tittle](#catalogue)

@@ -244,6 +244,6 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, observe the LED flashing on the development board, open the serial port and the host computer ATK-XCOM can see the prompt information of the experiment, indicating that the code download is successful. We can press the **KEY0** button to apply for memory once, and then press the **WKUP** button to release the memory, as shown in the following figure:
 
-![ ](./1_docs/3_figures/18_MALLOC/m1.png)
+![ ](../../1_docs/3_figures/18_MALLOC/m1.png)
 
 [jump to tittle](#catalogue)

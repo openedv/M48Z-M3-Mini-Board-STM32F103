@@ -11,39 +11,39 @@ The hardware resources used in this experiment are:
 
 The schematic diagram is as follows:
 
-![](./1_docs/3_figures/02_KEY/k.png)
+![](../../1_docs/3_figures/02_KEY/k.png)
 
-![](./1_docs/3_figures/02_KEY/p2.png)
+![](../../1_docs/3_figures/02_KEY/p2.png)
 
 As shown in the figure above, *KEY0* and *WKUP* are respectively connected to *PC13* and *PA0* of the MCU. It should be noted here that WKUP and KEY0 are both "high" active, and there is no external pull-down resistor, so you need to set the pull-down inside the STM32F103 to determine the setting of the idle level state.
 
 The position of KEY in the development board is shown in the following figure:
-![](./1_docs/3_figures/02_KEY/K1.png)
+![](../../1_docs/3_figures/02_KEY/K1.png)
 
 ### 3 STM32CubeIDE Configuration
 
 Here we will explain how to configure KEY experiments in the STM32CubeIDE. First of all, we make a copy of the experiment in the previous chapter, as shown in the figure below:
 
-![](./1_docs/3_figures/02_KEY/k3.png)
+![](../../1_docs/3_figures/02_KEY/k3.png)
 
 Then click on the blank space on the right, paste the project, and name the project ``02_KEY``, as shown below:
 
-![](./1_docs/3_figures/02_KEY/k4.png)
+![](../../1_docs/3_figures/02_KEY/k4.png)
 
 We can see that a new project file will appear on the right, but its.ioc file name is inconsistent with the project file name, so double-clicking the.ioc file cannot be opened normally, we need to rename the **.ioc** file:
 
-![](./1_docs/3_figures/02_KEY/k5.png)
+![](../../1_docs/3_figures/02_KEY/k5.png)
 
 In this way, we can get a new project ``02_KEY``, which inherits all the configurations of the previous chapter, on this basis, add functions related to the KEY, so as to avoid repeating the configuration of the LED part and the system clock part, which can greatly improve the efficiency.
 Then we double-click **02_key.ioc** to enter the STM32CubeMX tool, and configure PA0 and PC13 at the IO port of the KEY pin to the mode of **GPIO_Input**.
 
-![](./1_docs/3_figures/02_KEY/k6.png)
+![](../../1_docs/3_figures/02_KEY/k6.png)
 
 Next, configure the GPIO working mode, and the result of pin configuration is as shown in the figure below:
 
-![](./1_docs/3_figures/02_KEY/k7.png)
+![](../../1_docs/3_figures/02_KEY/k7.png)
 
-![](./1_docs/3_figures/02_KEY/k9.png)
+![](../../1_docs/3_figures/02_KEY/k9.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 

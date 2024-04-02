@@ -240,6 +240,6 @@ After the compilation is complete, connect the DAP and the minimal system board,
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, observe the LED flashing on the development board, open the serial port and the host computer ATK-XCOM can see the prompt information of the experiment, indicating that the code download is successful. At this time, press the **WKUP** button, and then press the **KEY0** button, the  LCD will display the information written to FLASH, as shown in the following figure:
 
-![ ](./1_docs/3_figures/17_FLASH_EEPROM/f1.png)
+![ ](../../1_docs/3_figures/17_FLASH_EEPROM/f1.png)
 
 [jump to tittle](#catalogue)

@@ -144,6 +144,6 @@ Press the reset button to restart the Mini Board, observe the LED flashing on th
 
 If the system supply Voltage is lower than 2.7V, the LCD will display ``PVD Low Voltage!`` (The voltage is too low to see some of the phenomenon). If the system power supply is normal, the LCD will display ``PVD Voltage OK!``, as shown below:
 
-![ ](./1_docs/3_figures/13_1_LowPower_PVD/pvd1.png)
+![ ](../../1_docs/3_figures/13_1_LowPower_PVD/pvd1.png)
 
 [jump to tittle](#catalogue)

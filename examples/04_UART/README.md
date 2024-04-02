@@ -8,11 +8,11 @@ The hardware resources used in this experiment are:
 + LED - PA8
 + USART1 - PA9\PA10
 
-![](./1_docs/3_figures/04_UART/uart.png)
+![](../../1_docs/3_figures/04_UART/uart.png)
 
-USART1 used in this experiment needs to be connected to an ATK-USB-UART module, and the connection method is as follows:
+USART1 used in this experiment needs to be connected to an ATK-MO340P module, and the connection method is as follows:
 
-![](./1_docs/3_figures/04_UART/u1.png)
+![](../../1_docs/3_figures/04_UART/u1.png)
 
 Note that pin PA9 and PA10 of the serial port are connected to RXD and TXD of the module, respectively.
 
@@ -23,15 +23,15 @@ Let's copy the project from **02_KEY** and rename both the project and the.ioc f
 
 First, you need to configure the pin of the serial port, as shown in the following figure:
 
-![](./1_docs/3_figures/04_UART/u2.png)
+![](../../1_docs/3_figures/04_UART/u2.png)
 
 Then configure the specific parameters of the serial port, as shown in the following figure:
 
-![](./1_docs/3_figures/04_UART/u3.png)
+![](../../1_docs/3_figures/04_UART/u3.png)
 
 In this experiment, serial port will be used to receive interrupts, so NVIC should be configured, as shown in the figure below:
 
-![](./1_docs/3_figures/04_UART/u4.png)
+![](../../1_docs/3_figures/04_UART/u4.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -205,6 +205,6 @@ After the compilation is complete, connect the DAP and the minimal system board,
 #### 4.2 Phenomenon
 Press the reset button to restart the development board. After connecting the serial port module, open the **ATK-XCOM** serial port debugging assistant software on the computer.Select the correct COM port and related configurations, such as baud rate, data bit, stop bit, etc. When the serial port is opened, the serial port debugging Assistant displays a prompt message.
 
-![](./1_docs/3_figures/04_UART/u5.png)
+![](../../1_docs/3_figures/04_UART/u5.png)
 
 [jump to tittle](#catalogue)

@@ -17,11 +17,11 @@ Let's copy the project from **04_UART** and name both the project and the.ioc fi
 
 First, click **System Core > WWDG**, and the configuration is as follows:
 
-![](./1_docs/3_figures/06_WWDG/ww1.png)
+![](../../1_docs/3_figures/06_WWDG/ww1.png)
 
 The configuration of the NVIC is shown below:
 
-![](./1_docs/3_figures/06_WWDG/ww2.png)
+![](../../1_docs/3_figures/06_WWDG/ww2.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -91,7 +91,7 @@ After the compilation is complete, connect the DAP and the minimal system board,
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, open the serial debugging assistant will print the experiment information, indicating that the program has been downloaded successfully.Observe that the LED on the development board will light up and turn off once, and the serial port host computer **ATK-XCOM** can see the continuous print ``wwdg succes``, indicating that the WWDG feeding dog has been normally executed.
 
-![](./1_docs/3_figures/06_WWDG/ww4.png)
+![](../../1_docs/3_figures/06_WWDG/ww4.png)
 
 [jump to tittle](#catalogue)
 

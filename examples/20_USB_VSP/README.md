@@ -10,7 +10,7 @@ The hardware resources used in this experiment are:
 
 The schematic diagram of the connection between the USB interface used in this experiment and STM32F103 is shown as follows.
 
-![ ](./1_docs/3_figures/22_USB_VSP/u1.png)
+![ ](../../1_docs/3_figures/22_USB_VSP/u1.png)
 
 ### 3 STM32CubeIDE Configuration
 
@@ -19,23 +19,23 @@ We copy the **04_UART** project and name both the project and the.ioc file **20_
 
 Configure the USB as shown in the following figure:
 
-![ ](./1_docs/3_figures/22_USB_VSP/u2.png)
+![ ](../../1_docs/3_figures/22_USB_VSP/u2.png)
 
 Then click **Middleware and Software Packs->THREADX**, as shown below.
 
-![ ](./1_docs/3_figures/22_USB_VSP/u3.png)
+![ ](../../1_docs/3_figures/22_USB_VSP/u3.png)
 
 Then **Middleware and Software Packs->USBX**.
 
-![ ](./1_docs/3_figures/22_USB_VSP/u4.png)
+![ ](../../1_docs/3_figures/22_USB_VSP/u4.png)
 
 In **Clock Configuration**, the USB clock is set to 48M.
 
-![ ](./1_docs/3_figures/22_USB_VSP/u6.png)
+![ ](../../1_docs/3_figures/22_USB_VSP/u6.png)
 
 In this experiment, the USB interrupt callback function is needed to obtain the USB connection status, and the NVIC configuration is as follows.
 
-![ ](./1_docs/3_figures/22_USB_VSP/u5.png)
+![ ](../../1_docs/3_figures/22_USB_VSP/u5.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 We need to modify the USBX related file to match our hardware information, you can open the source to see.
@@ -96,6 +96,6 @@ After the compilation is complete, connect the DAP and the minimal system board,
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, replug the USB cable, and open two serial ports of the host computer ATK-XCOM. One uses the USB virtual serial port, and the other uses the CH340 name serial port. The two can communicate with each other, as shown in the following figure:
 
-![ ](./1_docs/3_figures/22_USB_VSP/u7.png)
+![ ](../../1_docs/3_figures/22_USB_VSP/u7.png)
 
 [jump to tittle](#catalogue)

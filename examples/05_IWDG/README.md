@@ -18,7 +18,7 @@ Let's copy the project from **04_UART** and name both the project and the.ioc fi
 
 First, click **System Core->IWDG**, and the configuration is as follows:
 
-![](./1_docs/3_figures/05_IWDG/i1.png)
+![](../../1_docs/3_figures/05_IWDG/i1.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 

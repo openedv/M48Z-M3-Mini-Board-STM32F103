@@ -19,9 +19,9 @@ We copy the **10_TFTLCD_MCU** project and name both the project and the.ioc file
 
 Open **System Core > DMA** as shown below.
 
-![ ](./1_docs/3_figures/14_DMA/d1.png)
+![ ](../../1_docs/3_figures/14_DMA/d1.png)
 
-![ ](./1_docs/3_figures/14_DMA/d2.png)
+![ ](../../1_docs/3_figures/14_DMA/d2.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -179,6 +179,6 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### 4.2 Phenomenon
 Press the reset button to restart the Mini Board, observe the LED flashing on the Mini Board, open the serial port and the host computer **ATK-XCOM** can see the prompt information of the experiment, indicating that the code download is successful. After pressing the KEY0 button, you can see the data sent by the development board in the serial port debugging assistant, and the transmission will be prompted after the completion of transmission, as shown in the following figure:
 
-![ ](./1_docs/3_figures/14_DMA/d3.png)
+![ ](../../1_docs/3_figures/14_DMA/d3.png)
 
 [jump to tittle](#catalogue)

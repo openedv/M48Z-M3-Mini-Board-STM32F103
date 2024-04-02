@@ -18,17 +18,17 @@ Let's copy the project from  **04_UART** and name both the project and the.ioc f
 
 TIM2 is used in this experiment. Click **Timers > TIM2** and set it as shown below:
 
-![ ](./1_docs/3_figures/11_USMART/u1.png)
+![ ](../../1_docs/3_figures/11_USMART/u1.png)
 
 The TIM2 used in this experiment will overflow every 1 ms to generate an interrupt, so the configuration of the NVIC is shown as follows:
 
-![ ](./1_docs/3_figures/11_USMART/u2.png)
+![ ](../../1_docs/3_figures/11_USMART/u2.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
 In this experiment, the USMART folder will be ported, which contains the following files:
 
-![ ](./1_docs/3_figures/11_USMART/u3.png)
+![ ](../../1_docs/3_figures/11_USMART/u3.png)
 
 ##### code
 ###### usmart_port.c
@@ -99,7 +99,7 @@ void TIM2_IRQHandler(void)
 ```
 Note that since the interrupt service function is also defined in ``stm32f1xx_it.c``, the definition in ``stm32f1xx_it.c`` should be masked, as shown in the following figure:
 
-![ ](./1_docs/3_figures/11_USMART/u4.png)
+![ ](../../1_docs/3_figures/11_USMART/u4.png)
 
 Now that the porting of the USMART component is almost complete, you can add the debug functions to the **usmart_nametab** array in the ``usmart_config.c`` file .
 
@@ -172,10 +172,10 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### 4.2 Phenomenon
 Press the reset button to restart the Mini Board, observe the LED flashing on the Mini Board, open the serial port and the host computer **ATK-XCOM** can see the prompt information of the experiment, indicating that the code download is successful. We send instructions to complete the response function, as shown in the following figure:
 
-![ ](./1_docs/3_figures/11_USMART/u5.png)
+![ ](../../1_docs/3_figures/11_USMART/u5.png)
 
 You can also send help to get help, as shown in the following screenshot.
 
-![ ](./1_docs/3_figures/11_USMART/u6.png)
+![ ](../../1_docs/3_figures/11_USMART/u6.png)
 
 [jump to tittle](#catalogue)

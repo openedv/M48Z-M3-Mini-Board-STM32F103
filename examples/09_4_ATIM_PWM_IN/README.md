@@ -18,25 +18,25 @@ Let's copy the project from  **04_UART** and name both the project and the.ioc f
 
 First, we will configure the pin as shown below:
 
-![](./1_docs/3_figures/09_4_ATIM_PWM_IN/a14.png)
+![](../../1_docs/3_figures/09_4_ATIM_PWM_IN/a14.png)
 
-![](./1_docs/3_figures/09_4_ATIM_PWM_IN/a15.png)
+![](../../1_docs/3_figures/09_4_ATIM_PWM_IN/a15.png)
 
 Click **Timers > TIM2** and configure as shown in the following figure.
 
-![](./1_docs/3_figures/09_4_ATIM_PWM_IN/a16.png)
+![](../../1_docs/3_figures/09_4_ATIM_PWM_IN/a16.png)
 
 Click **Timers > TIM1** and configure as shown in the following figure.
 
-![](./1_docs/3_figures/09_4_ATIM_PWM_IN/a17.png)
+![](../../1_docs/3_figures/09_4_ATIM_PWM_IN/a17.png)
 
 Click **Timers > TIM1 > Parameter Settings** .
 
-![](./1_docs/3_figures/09_4_ATIM_PWM_IN/a18.png)
+![](../../1_docs/3_figures/09_4_ATIM_PWM_IN/a18.png)
 
 The update interrupt and input capture interrupt are used in this experiment. The configuration of NVIC is shown in the following figure:
 
-![](./1_docs/3_figures/09_4_ATIM_PWM_IN/a19.png)
+![](../../1_docs/3_figures/09_4_ATIM_PWM_IN/a19.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -313,6 +313,6 @@ After the compilation is complete, connect the DAP and the minimal system board,
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, open the serial port debugging assistant will print the experimental information, indicating that the program has been downloaded successfully.We need to connect **PA8** and **PA1** pins with a dupont wire. The experimental phenomenon is shown as follows:
 
-![](./1_docs/3_figures/09_4_ATIM_PWM_IN/a20.png)
+![](../../1_docs/3_figures/09_4_ATIM_PWM_IN/a20.png)
 
 [jump to tittle](#catalogue)

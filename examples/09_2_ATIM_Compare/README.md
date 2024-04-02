@@ -20,17 +20,17 @@ Let's copy the project from **04_UART** and name both the project and the.ioc fi
 
 First, we will reuse pins PA8 through PA11 as TIM1_CH1 through TIM1_CH4 in a similar way as we did in the previous chapter, as shown in the following figure:
 
-![](./1_docs/3_figures/09_2_ATIM_Compare/a5.png)
+![](../../1_docs/3_figures/09_2_ATIM_Compare/a5.png)
 
 
 Click **Timers > TIM1** and configure as shown in the following figure.
 
-![](./1_docs/3_figures/09_2_ATIM_Compare/a6.png)
+![](../../1_docs/3_figures/09_2_ATIM_Compare/a6.png)
 
 Click **Timers > TIM1 > Parameter Settings** .
 
-![](./1_docs/3_figures/09_2_ATIM_Compare/a7.png)
-![](./1_docs/3_figures/09_2_ATIM_Compare/a8.png)
+![](../../1_docs/3_figures/09_2_ATIM_Compare/a7.png)
+![](../../1_docs/3_figures/09_2_ATIM_Compare/a8.png)
 
 Click **File > Save** and click **Yes** to generate code.
 
@@ -101,6 +101,6 @@ Press the reset button to restart the development board. We need to observe the 
 
 Here, we use ALIENTEK DS100 oscilloscope to observe the waveforms of PA8 and PA9. The yellow waveform is that of PA8, and the green waveform is that of PA9.
 
-![](./1_docs/3_figures/09_2_ATIM_Compare/a22.png)
+![](../../1_docs/3_figures/09_2_ATIM_Compare/a22.png)
 
 [jump to tittle](#catalogue)

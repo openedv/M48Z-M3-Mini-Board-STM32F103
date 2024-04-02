@@ -97,7 +97,7 @@ uint8_t g_usart_rx_buf[USART_REC_LEN] __attribute__((section(".app_addr")));
 ```
 This code means to put the array **g_usart_rx_buf** in a section called ``.app_addr``. The address of the segment points to the file ``STM32F103C8TX_FLASH.ld``.
 
-###### STM32H503CBTX_FLASH.ld
+###### STM32F103C8TX_FLASH.ld
 Open this file and add the red boxed code shown in the following screenshot:
 
 ![ ](./1_docs/3_figures/21_IAP_Bootloader/i1.png)
@@ -248,12 +248,12 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, observe the LED flashing on the development board, open the serial port and the host computer ATK-XCOM can see the prompt information of the experiment, indicating that the code download is successful. We send the bin file of the APP on the host computer of the serial port, and the phenomenon is shown as follows:
 
-![ ](./1_docs/3_figures/21_IAP_Bootloader/i2.png)
+![ ](../../1_docs/3_figures/21_IAP_Bootloader/i2.png)
 
 After receiving, press KEY0 and WKUP as shown below:
 
-![ ](./1_docs/3_figures/21_IAP_Bootloader/i3.png)
+![ ](../../1_docs/3_figures/21_IAP_Bootloader/i3.png)
 
-![ ](./1_docs/3_figures/21_IAP_Bootloader/i4.png)
+![ ](../../1_docs/3_figures/21_IAP_Bootloader/i4.png)
 
 [jump to tittle](#catalogue)

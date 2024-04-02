@@ -18,11 +18,11 @@ We copy the **10_TFTLCD_MCU** project and name both the project and the.ioc file
 
 In **Pinout&Configuration**, select PA1, set it as shown below.
 
-![ ](./1_docs/3_figures/15_1_ADC_Single_Channel/a1.png)
+![ ](../../1_docs/3_figures/15_1_ADC_Single_Channel/a1.png)
 
 Click **Analog > ADC1** to set mode.
 
-![ ](./1_docs/3_figures/15_1_ADC_Single_Channel/a2.png)
+![ ](../../1_docs/3_figures/15_1_ADC_Single_Channel/a2.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -138,6 +138,6 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, observe the LED flashing on the development board, open the serial port and the host computer **ATK-XCOM** can see the prompt information of the experiment, indicating that the code download is successful. When a dupont wire is used to connect the PA1 pin with different voltage values, the digital and analog voltage of the serial port host computer will also change. **It should be noted that the input voltage cannot exceed the 3.3V threshold of the development board**, otherwise it may damage the development board. The phenomenon is illustrated in the following figure.
 
-![ ](./1_docs/3_figures/15_1_ADC_Single_Channel/a3.png)
+![ ](../../1_docs/3_figures/15_1_ADC_Single_Channel/a3.png)
 
 [jump to tittle](#catalogue)

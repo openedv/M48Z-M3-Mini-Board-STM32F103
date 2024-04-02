@@ -20,15 +20,15 @@ Let's copy the project from  **13_1_LowPower_PVD** and name both the project and
 
 First, click **Pinout&Configuration**, modify the PA0 pin to the external interrupt wakeup mode as shown below:
 
-![ ](./1_docs/3_figures/13_2_LowPower_Sleep/s1.png)
+![ ](../../1_docs/3_figures/13_2_LowPower_Sleep/s1.png)
 
 The specific parameter configuration of PA0 is shown in the following figure.
 
-![ ](./1_docs/3_figures/13_2_LowPower_Sleep/s2.png)
+![ ](../../1_docs/3_figures/13_2_LowPower_Sleep/s2.png)
 
 In this experiment, the sleep mode is awakened by external interrupt, so the NVIC should be configured, as shown below:
 
-![ ](./1_docs/3_figures/13_2_LowPower_Sleep/s3.png)
+![ ](../../1_docs/3_figures/13_2_LowPower_Sleep/s3.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.In addition, we also need to add the PWR driver file ``pwr.c/pwr.h``. The pwr file in this experiment is different from the one in the previous chapter.
 
@@ -144,8 +144,8 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### 4.2 Phenomenon
 Press the reset button to restart the Mini Board, observe the LED flashing on the Mini Board, open the serial port and the host computer ATK-XCOM can see the prompt information of the experiment, indicating that the code download is successful. If you press the KEY0 button, the serial port will display **Enter Sleep Mode...**. If you press the WKUP button, the serial port will display **Exit Sleep Mode...**, there will also be a corresponding prompt message on the LCD screen as shown below.
 
-![ ](./1_docs/3_figures/13_2_LowPower_Sleep/s4.png)
+![ ](../../1_docs/3_figures/13_2_LowPower_Sleep/s4.png)
 
-![ ](./1_docs/3_figures/13_2_LowPower_Sleep/s5.png)
+![ ](../../1_docs/3_figures/13_2_LowPower_Sleep/s5.png)
 
 [jump to tittle](#catalogue)

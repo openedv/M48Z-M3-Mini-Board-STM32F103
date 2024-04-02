@@ -20,15 +20,15 @@ Since our implementation is based on the previous project, the ADC pin does not 
 
 Click **Analog > ADC1** to set.
 
-![ ](./1_docs/3_figures/15_2_ADC_DMA_Single_Channel/a4.png)
+![ ](../../1_docs/3_figures/15_2_ADC_DMA_Single_Channel/a4.png)
 
 In this experiment, DMA is used to transfer data, and the configuration is shown in the following figure.
 
-![ ](./1_docs/3_figures/15_2_ADC_DMA_Single_Channel/a5.png)
+![ ](../../1_docs/3_figures/15_2_ADC_DMA_Single_Channel/a5.png)
 
 Then configure the interrupt priority for DMA.
 
-![ ](./1_docs/3_figures/15_2_ADC_DMA_Single_Channel/a6.png)
+![ ](../../1_docs/3_figures/15_2_ADC_DMA_Single_Channel/a6.png)
 
 Click **File > Save**, and you will be asked to generate code.Click **Yes**.
 
@@ -168,6 +168,6 @@ After the compilation is complete, connect the DAP and the Mini Board, and then 
 #### 4.2 Phenomenon
 Press the reset button to restart the development board, observe the LED flashing on the development board, open the serial port and the host computer **ATK-XCOM** can see the prompt information of the experiment, indicating that the code download is successful. When a dupont wire is used to connect the PA1 pin with different voltage values, the digital and analog voltage of the serial port host computer will also change. **It should be noted that the input voltage cannot exceed the 3.3V threshold of the development board**, otherwise it may damage the development board. The phenomenon is illustrated in the following figure:
 
-![ ](./1_docs/3_figures/15_2_ADC_DMA_Single_Channel/a7.png)
+![ ](../../1_docs/3_figures/15_2_ADC_DMA_Single_Channel/a7.png)
 
 [jump to tittle](#catalogue)
