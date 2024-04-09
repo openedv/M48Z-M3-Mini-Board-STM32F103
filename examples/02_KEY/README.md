@@ -18,7 +18,7 @@ The schematic diagram is as follows:
 As shown in the figure above, *KEY0* and *WKUP* are respectively connected to *PC13* and *PA0* of the MCU. It should be noted here that WKUP and KEY0 are both "high" active, and there is no external pull-down resistor, so you need to set the pull-down inside the STM32F103 to determine the setting of the idle level state.
 
 The position of KEY in the development board is shown in the following figure:
-![](../../1_docs/3_figures/02_KEY/K1.png)
+![](../../1_docs/3_figures/02_KEY/K11.png)
 
 ### 3 STM32CubeIDE Configuration
 
